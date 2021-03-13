@@ -64,7 +64,7 @@ h3::after {
   width: 300px;
 }
 
-.profile{
+.career,.profile{
   margin: 0;
   padding: 0;
   border-bottom: 2px black solid;
@@ -74,10 +74,21 @@ h3::after {
 
 }
 
+.profile{
+  border: none;
+}
+
 .text {
   color: #7f7f7f;
   line-height: 1.7;
 }
+
+.prof-text {
+  color: #7f7f7f;
+  line-height: 1.7;
+  padding: 0 200px;
+}
+
 
 .skills{
   margin-bottom: 100px;
@@ -112,7 +123,11 @@ h3::after {
   .block_home {
     
     padding-top: 70px;
-    
+  }
+
+  .prof-text {
+
+    padding: 0 ;
   }
 
 }
